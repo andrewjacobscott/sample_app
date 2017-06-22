@@ -26,3 +26,10 @@ Processing by ApplicationController#hello as HTML
 Completed 200 OK in 1ms (Views: 0.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-06-21 22:04:01 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
