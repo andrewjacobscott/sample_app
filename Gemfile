@@ -8,6 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
+gem 'bootstrap-sass', '3.3.6'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'pg'
@@ -44,6 +45,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
+  gem 'rails-controller-testing'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
